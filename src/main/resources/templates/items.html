@@ -1,0 +1,9 @@
+{{> header}}
+<div class="ui list">
+{{#elements}}
+  <div class="item">{{nom}} - {{evaluation}}</div>
+	<!-- <a href="/td0/items/inc/{{nom}}"><button style="display: inline-block" class="positive ui button">+</button></a> -->
+{{/elements}}
+</div>
+<a href="/td0/items/new"><button class="positive ui button">Ajouter un élèment</button></a>
+{{> footer}}

@@ -1,9 +1,16 @@
 package sp4.spring.models;
 
 public class Element {
-	private String nom;
+	private String nom="";
 	private int evaluation;
 	
+	public Element(String nom,int evaluation) {
+		this.nom = nom;
+		this.evaluation = evaluation;
+	}
+	public Element() {
+		super();
+	}
 	public String getNom() {
 		return nom;
 	}

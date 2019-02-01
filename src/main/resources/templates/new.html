@@ -1,0 +1,17 @@
+{{> header}}
+<div class="container">
+<h1 style="text-align: center">Ajout d'un item</h1>
+<form class="ui form" action="/td0/items/addNew" method="POST" modelAttribute="element">
+  <div class="field">
+    <label>Nom</label>
+    <input type="text" name="nom" placeholder="Nom">
+  </div>
+  <div class="field">
+    <label>Evaluation</label>
+    <input type="number" name="evaluation" placeholder="Evaluation">
+  </div>
+  <button class="ui button" type="submit">Ajouter</button>
+</form>
+</div>
+{{> footer}}
+
